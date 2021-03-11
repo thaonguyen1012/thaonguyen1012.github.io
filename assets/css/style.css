@@ -1,0 +1,119 @@
+        @import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@500&display=swap');
+        /*Reset CSS*/
+        
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            font-family: 'Public Sans', sans-serif;
+        }
+        
+        #main {}
+        
+        #header {
+            padding: 30px 0;
+            width: 100%;
+            background-image: url("https://images.pexels.com/photos/1304272/pexels-photo-1304272.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260");
+            height: 680px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+            opacity: 92%;
+        }
+        
+        #nav {
+            text-align: center;
+        }
+        
+        #nav li {
+            display: inline-block;
+        }
+        
+        #nav li a {
+            text-decoration: none;
+            color: rgba(255, 255, 255, .7);
+            line-height: 50px;
+            font-size: 20px;
+            padding: 0 40px;
+        }
+        
+        #nav li a:hover {
+            color: #fff;
+        }
+        
+        #header-text {
+            color: #fff;
+            text-align: center;
+            margin-top: 540px;
+            letter-spacing: 2px;
+        }
+        
+        #content {}
+        
+        #content .content-section {
+            width: 900px;
+            padding: 68px 34px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        #content .section-heading {
+            color: #201713;
+            font-weight: 680;
+            font-size: 42px;
+            line-height: 1.35em;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+        }
+        
+        #content .section-sub-heading {
+            color: #1C1C1CCC;
+            font-size: 15px;
+            line-height: 1.4em;
+            text-transform: uppercase;
+            letter-spacing: .05em;
+            font-weight: 100;
+            font-style: normal;
+            margin-top: 15px;
+            margin-bottom: 25px;
+        }
+        
+        .about-text {
+            color: rgba(0, 0, 0, .5);
+            margin-block-start: 1em;
+            margin-block-end: 1em;
+            margin-inline-start: 0px;
+            margin-inline-end: 0px;
+        }
+        
+        #content .section-heading,
+        #content .section-sub-heading {
+            text-align: center;
+        }
+        
+        #content .menu-item {
+            float: left;
+            width: 33.333333333%;
+            text-align: center;
+        }
+        
+        #content .menu-name {
+            font-size: 18px;
+            text-transform: uppercase;
+        }
+        
+        #content .menu-img {
+            width: 240px;
+            height: 300px;
+            margin-bottom: 15px;
+        }
+        
+        .clear {
+            clear: both;
+        }
+        
+        .footer {}

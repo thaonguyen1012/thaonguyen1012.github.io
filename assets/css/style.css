@@ -116,7 +116,6 @@
             clear: both;
         }
         
-<<<<<<< HEAD
         .banner {
             min-height: 85vh;
             background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/260922/pexels-photo-260922.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940") center/cover no-repeat;
@@ -195,6 +194,4 @@
             opacity: 0.8;
         }
         
-=======
->>>>>>> afe0011ce81c34dc797cb4ba1535b7c7d7379d6e
         .footer {}
